@@ -1,0 +1,5 @@
+.Logo img {
+  height: auto; /* 保持图片比例 */
+  width: 80px;
+  border-radius: 50%;
+}
