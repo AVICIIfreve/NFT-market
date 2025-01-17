@@ -1,5 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .Logo img {
   height: auto; /* 保持图片比例 */
   width: 80px;
   border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4b2d73;
+  color: white;
+  padding: 10px 10px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.Logo p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 搜索框 */
+.search-bar {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 0px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* 登录和按钮部分 */
+.login-user-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-user-cart button {
+  background-color: #6b4ca0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-user-cart button:hover {
+  background-color: #8a67c7;
 }

@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+import "../styles/test.css";
 import Logo from "../assets/Logo.jpg";
 const Navbar = () => {
   return (
@@ -24,9 +24,19 @@ const Navbar = () => {
         <input type="text" placeholder="Search" />
       </div>
       <div className="login-user-cart">
-        <button>Login</button>
-        <button>Profile</button>
-        <button>Cart</button>
+        <a>
+          <i
+            className="fa-regular fa-envelope"
+            style={{ marginRight: "5px" }}
+          ></i>
+          Login
+        </a>
+        <a>
+          <i className="fa-regular fa-user"></i>
+        </a>
+        <a>
+          <i className="fa-solid fa-cart-shopping"></i>
+        </a>
       </div>
     </nav>
   );
